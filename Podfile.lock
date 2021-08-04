@@ -1,0 +1,32 @@
+PODS:
+  - DatePicker (1.3.1):
+    - Extended
+  - Extended (1.0.5)
+  - ImagePicker (3.2.0)
+  - IQKeyboardManagerSwift (6.5.5)
+  - SkeletonView (1.7)
+
+DEPENDENCIES:
+  - DatePicker (~> 1.3.0)
+  - ImagePicker
+  - IQKeyboardManagerSwift (= 6.5.5)
+  - SkeletonView (= 1.7)
+
+SPEC REPOS:
+  trunk:
+    - DatePicker
+    - Extended
+    - ImagePicker
+    - IQKeyboardManagerSwift
+    - SkeletonView
+
+SPEC CHECKSUMS:
+  DatePicker: 05ddbd2b57d00ce6f44c1f0611ced32f948d33a6
+  Extended: c463225e0c29b2823847866c1b106827772ac678
+  ImagePicker: 1d950bbb2422548ed58791b4ec7f42fe42920511
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  SkeletonView: 7d7378731b708f8a6e6b1ffefb68cc3903f10a03
+
+PODFILE CHECKSUM: 56f1498d47aa90ebea2403908161b70ad3a8938f
+
+COCOAPODS: 1.10.0

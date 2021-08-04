@@ -1,0 +1,6 @@
+framework module Pods_ImageMachine {
+  umbrella header "Pods-ImageMachine-umbrella.h"
+
+  export *
+  module * { export * }
+}

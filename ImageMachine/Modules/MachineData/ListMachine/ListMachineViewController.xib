@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ListMachineViewController" customModule="ImageMachine" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="DyU-jv-F42" id="Veu-Ix-lnd"/>
+                <outlet property="homeTableView" destination="qwQ-gD-5fS" id="LN1-ld-xr2"/>
+                <outlet property="view" destination="gNH-pg-0AM" id="Fn7-cB-mIN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="gNH-pg-0AM">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DyU-jv-F42">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qwQ-gD-5fS">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="zy6-Td-1Mb"/>
+                                <outlet property="delegate" destination="-1" id="Oi8-9a-huq"/>
+                            </connections>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="qwQ-gD-5fS" firstAttribute="top" secondItem="DyU-jv-F42" secondAttribute="top" id="0pG-r9-OsU"/>
+                        <constraint firstAttribute="trailing" secondItem="qwQ-gD-5fS" secondAttribute="trailing" id="1uV-pk-iBr"/>
+                        <constraint firstItem="qwQ-gD-5fS" firstAttribute="leading" secondItem="DyU-jv-F42" secondAttribute="leading" id="Ald-YW-UgY"/>
+                        <constraint firstAttribute="bottom" secondItem="qwQ-gD-5fS" secondAttribute="bottom" id="Tdn-va-Hmq"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="YeT-9d-K5S"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="YeT-9d-K5S" firstAttribute="trailing" secondItem="DyU-jv-F42" secondAttribute="trailing" id="NPe-6i-k5h"/>
+                <constraint firstItem="DyU-jv-F42" firstAttribute="top" secondItem="YeT-9d-K5S" secondAttribute="top" id="bgH-gX-zCc"/>
+                <constraint firstItem="DyU-jv-F42" firstAttribute="leading" secondItem="YeT-9d-K5S" secondAttribute="leading" id="eJY-dg-FHc"/>
+                <constraint firstItem="YeT-9d-K5S" firstAttribute="bottom" secondItem="DyU-jv-F42" secondAttribute="bottom" id="isC-7s-tUC"/>
+            </constraints>
+            <point key="canvasLocation" x="34.782608695652179" y="103.79464285714285"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

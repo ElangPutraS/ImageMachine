@@ -1,0 +1,6 @@
+framework module Pods_ImageMachine_ImageMachineUITests {
+  umbrella header "Pods-ImageMachine-ImageMachineUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
